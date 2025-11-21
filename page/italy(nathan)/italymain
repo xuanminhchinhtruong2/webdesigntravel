@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why Visit Italy — Overview</title>
+</head>
+<body>
+  <header>
+    <h1>Why Visit Italy</h1>
+    <p>An introductory page linking to detailed reasons to visit: food, activities, cities, history, and cultural events.</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="food.html">Food &amp; Drink</a></li>
+        <li><a href="activities.html">Activities &amp; Experiences</a></li>
+        <li><a href="best-city.html">Best City to Visit</a></li>
+        <li><a href="history.html">History &amp; Heritage</a></li>
+        <li><a href="events.html">Cultural Events &amp; Festivals</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Italy is one of the world's most popular travel destinations thanks to its mix of world-class cuisine, deeply layered history, vibrant culture, varied landscapes, and welcoming people. This page gives a concise overview and links to more detailed pages for each reason to visit.</p>
+    </section>
+
+    <section id="food">
+      <h2>1. Food &amp; Drink</h2>
+      <p>Italian cuisine is regionally diverse and globally beloved. From Neapolitan pizza to Tuscan wines and Sicilian pastries, food is central to Italian life. Explore local markets, family-run trattorie, and seasonal specialties.</p>
+      <p><a href="food.html">Read more about Italian food &amp; drink →</a></p>
+    </section>
+
+    <section id="activities">
+      <h2>2. Activities &amp; Experiences</h2>
+      <p>Italy offers something for every traveler: art and museum tours, hiking in the Dolomites, sailing along the Amalfi Coast, cycling through the countryside, cooking classes, and wine tours. Whether you prefer relaxation or adventure, you'll find options.</p>
+      <p><a href="activities.html">Discover activities &amp; experiences →</a></p>
+    </section>
+
+    <section id="best-city">
+      <h2>3. The Best City to Visit (and why it's hard to pick just one)</h2>
+      <p>Choosing "the best" city depends on what you want: Rome for ancient history and major sights, Florence for Renaissance art, Venice for romance and canals, Milan for fashion and design, and Naples for authentic street food. Each city has a distinct personality worth exploring.</p>
+      <p><a href="best-city.html">See a comparison of top Italian cities →</a></p>
+    </section>
+
+    <section id="history">
+      <h2>4. History &amp; Cultural Heritage</h2>
+      <p>Italy is a cradle of Western civilization — Roman ruins, Renaissance masterpieces, Baroque churches, and UNESCO World Heritage sites are everywhere. History lovers can spend weeks visiting archaeological sites, museums, and historic neighborhoods.</p>
+      <p><a href="history.html">Learn more about Italy's history &amp; heritage →</a></p>
+    </section>
+
+    <section id="events">
+      <h2>5. Cultural Events &amp; Festivals</h2>
+      <p>Italy's calendar is packed with festivals: Carnevale in Venice, historical reenactments, food festivals (sagre), religious processions, opera seasons and film festivals. Timing a visit to coincide with a local festival can give you a memorable cultural experience.</p>
+      <p><a href="events.html">Find notable cultural events &amp; festivals →</a></p>
+    </section>
+
+    <section id="practical-tips">
+      <h2>Practical Travel Tips (brief)</h2>
+      <ul>
+        <li>Language: Italian is the primary language; English is commonly spoken in tourist areas.</li>
+        <li>Money: Euro (€). Credit cards are widely accepted, but carry cash for small vendors and markets.</li>
+        <li>Transport: Extensive train network (Trenitalia, Italo), regional buses, and domestic flights for longer distances.</li>
+        <li>Best time to visit: Spring (April–June) and autumn (September–October) for pleasant weather and fewer crowds.</li>
+        <li>Etiquette: Dress modestly in religious sites, and try to learn a few Italian phrases — locals appreciate it.</li>
+      </ul>
+    </section>
+
+    <section id="next-steps">
+      <h2>Next Steps</h2>
+      <p>If you'd like, I can:</p>
+      <ul>
+        <li>Create the individual HTML pages linked above (food.html, activities.html, etc.).</li>
+        <li>Add simple CSS styling later when you're ready.</li>
+        <li>Help you fill each page with detailed content, images, and suggested itineraries.</li>
+      </ul>
+      <p>Tell me which of the options above you'd like me to do next.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Travel Notes — Italy overview. Page created for planning purposes.</p>
+  </footer>
+
+  <!--
+    Notes for future work:
+    - Replace placeholder links with real pages when created.
+    - Add metadata, images, and optional CSS/JS as needed.
+  -->
+</body>
+</html>
+
