@@ -1,0 +1,143 @@
+/* Basic stylesheet for Switzerland overview page */
+:root{
+  --bg: #ffffff;
+  --text: #222222;
+  --muted: #666666;
+  --accent: #d52b1e; /* Swiss red */
+  --max-width: 1000px;
+  --gap: 1.25rem;
+}
+
+*{box-sizing: border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+header{
+  border-bottom: 3px solid rgba(0,0,0,0.05);
+  padding:1rem 1.25rem;
+  background: linear-gradient(180deg, rgba(0,0,0,0.01), transparent);
+}
+header h1{margin:0 0 0.25rem 0;font-size:1.5rem}
+nav{font-size:0.95rem}
+nav a{color:var(--accent);text-decoration:none;margin-right:0.6rem}
+nav a:hover, nav a:focus{text-decoration:underline}
+
+main{
+  max-width:var(--max-width);
+  margin:1.25rem auto;
+  padding:0 1rem;
+}
+
+section{margin-bottom:1.25rem;padding:0.6rem 0}
+section h2{margin:0 0 0.5rem 0;font-size:1.15rem}
+section h3{margin:0.35rem 0;font-size:1rem}
+
+p{margin:0 0 0.75rem 0}
+ul{margin:0 0 0.75rem 1.25rem}
+
+.sources{font-size:0.9rem;color:var(--muted)}
+
+footer{padding:1rem 0;color:var(--muted);text-align:center;border-top:1px solid #f0f0f0;margin-top:1.5rem}
+
+/* Utility and responsive */
+.container{max-width:var(--max-width);margin:0 auto;padding:0 1rem}
+img{max-width:100%;height:auto;display:block}
+
+/* Accessible focus states */
+a:focus{outline:3px solid rgba(213,43,30,0.15);outline-offset:2px}
+
+@media (min-width:800px){
+  header{padding:1.25rem 2rem}
+  main{padding:0 2rem}
+  header h1{font-size:1.75rem}
+}
+
+@media (max-width:480px){
+  nav{font-size:0.9rem}
+  header h1{font-size:1.25rem}
+}
+
+/* Small callout style */
+.note{background:#fff7f7;border-left:4px solid var(--accent);padding:0.5rem 0.75rem;margin:0.5rem 0}
+
+/* End of basic stylesheet */
+/* Basic stylesheet for Switzerland overview page */
+:root{
+	--bg: #ffffff;
+	--text: #222222;
+	--muted: #666666;
+	--accent: #d52b1e; /* Swiss red */
+	--max-width: 1000px;
+	--gap: 1.25rem;
+}
+
+*{box-sizing: border-box}
+html,body{height:100%}
+body{
+	margin:0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background:var(--bg);
+	color:var(--text);
+	line-height:1.6;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+header{
+	border-bottom: 3px solid rgba(0,0,0,0.05);
+	padding:1rem 1.25rem;
+	background: linear-gradient(180deg, rgba(0,0,0,0.01), transparent);
+}
+header h1{margin:0 0 0.25rem 0;font-size:1.5rem}
+nav{font-size:0.95rem}
+nav a{color:var(--accent);text-decoration:none;margin-right:0.6rem}
+nav a:hover, nav a:focus{text-decoration:underline}
+
+main{
+	max-width:var(--max-width);
+	margin:1.25rem auto;
+	padding:0 1rem;
+}
+
+section{margin-bottom:1.25rem;padding:0.6rem 0}
+section h2{margin:0 0 0.5rem 0;font-size:1.15rem}
+section h3{margin:0.35rem 0;font-size:1rem}
+
+p{margin:0 0 0.75rem 0}
+ul{margin:0 0 0.75rem 1.25rem}
+
+.sources{font-size:0.9rem;color:var(--muted)}
+
+footer{padding:1rem 0;color:var(--muted);text-align:center;border-top:1px solid #f0f0f0;margin-top:1.5rem}
+
+/* Utility and responsive */
+.container{max-width:var(--max-width);margin:0 auto;padding:0 1rem}
+img{max-width:100%;height:auto;display:block}
+
+/* Accessible focus states */
+a:focus{outline:3px solid rgba(213,43,30,0.15);outline-offset:2px}
+
+@media (min-width:800px){
+	header{padding:1.25rem 2rem}
+	main{padding:0 2rem}
+	header h1{font-size:1.75rem}
+}
+
+@media (max-width:480px){
+	nav{font-size:0.9rem}
+	header h1{font-size:1.25rem}
+}
+
+/* Small callout style */
+.note{background:#fff7f7;border-left:4px solid var(--accent);padding:0.5rem 0.75rem;margin:0.5rem 0}
+
+/* End of basic stylesheet */
+
