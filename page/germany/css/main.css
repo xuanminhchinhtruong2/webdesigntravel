@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    text-shadow:2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a{
+    color: #c41e3a;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+body {
+    /*font-family: 'Georgia', serif;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+main {
+    background-image: url('../images/german_flag.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-overlay {
+    z-index: 10;
+    background-color: rgba(0,0,0,0.3);
+}
+
+header {
+    /*background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);*/
+    background: lightgray;
+    color: #c41e3a;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #c41e3a;
+}
+        
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+    }
+        
+.container {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background: lightgray;
+    margin: 30px 0;
+    padding: 40px;
+    border-left: 5px solid #c41e3a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+        
+section h2 {
+    color: #c41e3a;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+        
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+        
+footer {
+    background: lightgray;
+    color: #c41e3a;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #c41e3a;
+}
