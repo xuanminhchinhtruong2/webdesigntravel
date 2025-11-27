@@ -135,3 +135,59 @@ footer a:hover {
         width: 150px;
     }
 }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-us-container {
+    background: white;
+    padding: 40px;
+    margin: 30px auto;
+    border-left: 5px solid #f0dcb3;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+input[type="submit"] {
+    background-color: #199c35;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #147a2a;
+}
