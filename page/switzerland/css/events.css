@@ -4,44 +4,34 @@
     --muted: #666666;
     --accent: #d52b1e;
     --max-width: 1000px;
-    --gap: 1.25rem;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html,
-body {
+html {
     height: 100%;
 }
 
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: var(--bg) url("../photos/flag.jpg") center/cover no-repeat;
-    background-attachment: fixed;
+    background: var(--bg) url("../photos/jazz.jpg") center/cover no-repeat fixed;
     color: var(--text);
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
 }
 
 header {
-    border-bottom: 3px solid rgba(0, 0, 0, 0.05);
-    padding: 1rem 1.25rem;
-    background-color: rgba(255, 255, 255, 0.85);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    background: rgba(255,255,255,0.9);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 1rem;
 }
 
 .brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    width: 100%;
+    gap: 0.5rem;
 }
 
 .logo {
@@ -49,72 +39,41 @@ header {
     height: auto;
 }
 
-header h1 {
-    margin: 0 0 0.25rem 0;
-    font-size: 1.5rem;
-}
-
-/* Navigation */
-.navigation {
-    width: 100%;
-}
-
 .navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
     gap: 0;
 }
 
 .navigation li {
-    display: inline-block;
+    flex: 1;
+    text-align: center;
 }
 
 .navigation a {
-    display: inline-block;
     color: var(--accent);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    font-size: 0.95rem;
+    padding: 0.5rem;
+    display: block;
 }
 
-.navigation a:hover,
-.navigation a:focus {
-    text-decoration: underline;
-    outline: none;
+.navigation a.active {
+    background: var(--accent);
+    color: #ffffff;
 }
 
 main {
     max-width: var(--max-width);
-    margin: 1.25rem auto;
-    background-color: rgba(255, 255, 255, 0.85);
+    margin: 1rem auto;
     padding: 1rem;
+    background: rgba(255,255,255,0.9);
     border-radius: 6px;
 }
 
 section {
-    margin-bottom: 1.25rem;
-    padding: 0.6rem 0;
-}
-
-section h2 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.15rem;
-}
-
-section h3 {
-    margin: 0.35rem 0;
-    font-size: 1rem;
-}
-
-p {
-    margin: 0 0 0.75rem 0;
-}
-
-ul {
-    margin: 0 0 0.75rem 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .sources {
@@ -123,11 +82,11 @@ ul {
 }
 
 footer {
+    background: #ffffff;
     padding: 1rem 0;
-    color: var(--muted);
+    border-top: 1px solid rgba(0,0,0,0.06);
     text-align: center;
-    border-top: 1px solid #f0f0f0;
-    margin-top: 1.5rem;
+    color: var(--muted);
 }
 
 .container {
@@ -136,54 +95,32 @@ footer {
     padding: 0 1rem;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.event-photo {
+    max-width: 700px;
+    width: 100%;
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
     display: block;
 }
 
+.sources {
+    font-size: 0.9rem;
+    color: var(--muted);
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
 a:focus {
-    outline: 3px solid rgba(213, 43, 30, 0.15);
+    outline: 3px solid rgba(213,43,30,0.15);
     outline-offset: 2px;
 }
 
-.note {
-    background: #fff7f7;
-    border-left: 4px solid var(--accent);
-    padding: 0.5rem 0.75rem;
-    margin: 0.5rem 0;
-}
-
-@media (min-width: 800px) {
-    header {
-        padding: 1.25rem 2rem;
-    }
-
-    main {
-        padding: 0 2rem;
-    }
-
-    header h1 {
-        font-size: 1.75rem;
-    }
-}
-
 @media (max-width: 480px) {
-    .navigation,
-    nav {
-        font-size: 0.9rem;
-        width: 100%;
-    }
-
-    .navigation ul,
-    nav ul {
-        gap: 0.75rem;
-    }
-
-    header h1 {
-        font-size: 1.25rem;
-    }
-
     .logo {
         width: 36px;
     }

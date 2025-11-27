@@ -1,0 +1,132 @@
+:root {
+    --bg: #ffffff;
+    --text: #222222;
+    --muted: #666666;
+    --accent: #d52b1e;
+    --max-width: 1000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg) url("../photos/bern.avif") center/cover no-repeat fixed;
+    color: var(--text);
+    line-height: 1.5;
+}
+
+header {
+    background: rgba(255,255,255,0.9);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 1rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    width: 48px;
+    height: auto;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0;
+}
+
+.navigation li {
+    flex: 1;
+    text-align: center;
+}
+
+.navigation a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+.navigation a.active {
+    background: var(--accent);
+    color: #ffffff;
+}
+
+main {
+    max-width: var(--max-width);
+    margin: 1rem auto;
+    padding: 1rem;
+    background: rgba(255,255,255,0.9);
+    border-radius: 6px;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.sources {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+footer {
+    background: #ffffff;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    text-align: center;
+    color: var(--muted);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fimage {
+    max-width: 800px;
+    width: 100%;
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.fimage:hover {
+    transform: scale(1.05);
+}
+
+a:focus {
+    outline: 3px solid rgba(213,43,30,0.15);
+    outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 36px;
+    }
+
+    main {
+        margin: 0.75rem;
+        padding: 0.75rem;
+    }
+}

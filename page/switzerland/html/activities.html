@@ -11,172 +11,259 @@
     <header>
         <div class="brand">
             <img src="../photos/swisscross.png" alt="Swiss cross" class="logo">
-            <h1>Switzerland — Activities</h1>
+            <h1>Switzerland — Activities &amp; Adventures</h1>
         </div>
         <nav class="navigation">
             <ul>
-                <li><a href="index.html">Overview</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="food.html">Traditional Food</a></li>
-                <li><a href="activities.html">Activities</a></li>
+                <li><a href="activities.html" class="active">Activities</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="events.html">Cultural Events</a></li>
+                <li><a href="cities.html">Cities and towns</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <!-- Introduction -->
-        <section class="mb-10 p-6 bg-white rounded-xl card-shadow border-t-4 border-swiss-red">
-            <h2 class="text-2xl font-bold mb-4 text-swiss-red">From Confederation to Global Neutrality</h2>
-            <p class="text-lg leading-relaxed">
-                Switzerland's history is a unique narrative of independent cantons (states) uniting for mutual defense, evolving from a loose alliance into a highly decentralized, multilingual federal republic. Key historical threads include the early struggle for self-determination, the famous mercenary tradition, and the deliberate embrace of armed neutrality that has defined its modern global role.
+        <section>
+            <h2>Introduction to Swiss Activities</h2>
+            <p>
+                Switzerland offers a diverse range of activities for all seasons and all travel styles. 
+                From world-class skiing and hiking in the Alps to lakeside relaxation and cultural experiences 
+                in charming towns, Switzerland is an adventurer's paradise. The country's excellent infrastructure, 
+                safety, and natural beauty make it an ideal destination for outdoor enthusiasts and wellness seekers alike.
             </p>
         </section>
 
-        <!-- Key Historical Eras Section -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-bold mb-6 text-alpine-blue border-b-2 border-alpine-blue pb-2">Founding Moments and Consolidation</h2>
+        <section>
+            <h2>Winter Sports</h2>
+            <img src="../photos/wintersport.jpg" alt="Alpine skiing" class="fimage">
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                
-                <!-- Founding Myth Card -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02]">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">1. The Old Swiss Confederacy (1291)</h3>
-                    <p class="mb-3 text-gray-600">
-                        The traditional founding date is August 1, 1291, when the three forest cantons (Uri, Schwyz, and Unterwalden) signed the Federal Charter, or the Pact of Rütli. This alliance was a defense agreement against Habsburg rule.
-                    </p>
-                    <ul class="list-disc list-inside text-sm space-y-1 ml-4 text-gray-500">
-                        <li><span class="font-medium text-gray-700">Key Figure:</span> William Tell, the legendary folk hero associated with the struggle for independence.</li>
-                        <li><span class="font-medium text-gray-700">Significance:</span> Established a defensive, non-feudal alliance that slowly grew into Switzerland.</li>
-                    </ul>
-                </div>
-
-                <!-- Mercenary Tradition Card -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02]">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">2. Rise of Swiss Mercenaries</h3>
-                    <p class="mb-3 text-gray-600">
-                        From the 15th to 18th centuries, Swiss soldiers were renowned across Europe for their discipline and effectiveness, serving as elite mercenaries.
-                    </p>
-                    <ul class="list-disc list-inside text-sm space-y-1 ml-4 text-gray-500">
-                        <li><span class="font-medium text-gray-700">Turning Point:</span> The defeat at the Battle of Marignano (1515) led the Confederacy to abandon expansionist foreign policy.</li>
-                        <li><span class="font-medium text-gray-700">Legacy:</span> The Pontifical Swiss Guard, protecting the Vatican, is the last enduring example of this tradition.</li>
-                    </ul>
-                </div>
-
-                <!-- Neutrality Declaration Card -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02]">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">3. Perpetual Neutrality (1815)</h3>
-                    <p class="mb-3 text-gray-600">
-                        Following the Napoleonic Wars, the Congress of Vienna formally recognized and guaranteed Switzerland's permanent armed neutrality.
-                    </p>
-                    <ul class="list-disc list-inside text-sm space-y-1 ml-4 text-gray-500">
-                        <li><span class="font-medium text-gray-700">Official Recognition:</span> The major European powers signed the Declaration on the Affairs of the Swiss Confederation.</li>
-                        <li><span class="font-medium text-gray-700">Modern Role:</span> This status allows Switzerland to act as a mediating nation and host numerous international organizations.</li>
-                    </ul>
-                </div>
-
-                <!-- Federal State Card -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02]">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">4. The Federal Constitution (1848)</h3>
-                    <p class="mb-3 text-gray-600">
-                        After a brief civil war (Sonderbund War) in 1847, Switzerland adopted a new constitution, transforming the loose confederation into a modern federal state, inspired by the U.S. model.
-                    </p>
-                    <ul class="list-disc list-inside text-sm space-y-1 ml-4 text-gray-500">
-                        <li><span class="font-medium text-gray-700">Key Feature:</span> Established a central government (Federal Assembly and Federal Council) while preserving cantonal autonomy.</li>
-                        <li><span class="font-medium text-gray-700">Political System:</span> Introduced direct democracy tools like the referendum and initiative.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Modern Developments Section -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-bold mb-6 text-alpine-blue border-b-2 border-alpine-blue pb-2">Modern Developments and Global Impact</h2>
-            
-            <div class="space-y-6">
-
-                <!-- Red Cross -->
-                <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-red-500">
-                    <h3 class="text-xl font-semibold mb-2">Founding of the Red Cross (1863)</h3>
-                    <p class="text-gray-600">
-                        Swiss humanitarian Jean-Henri Dunant, moved by the suffering at the Battle of Solferino, founded the organization in Geneva. This led to the Geneva Conventions, forming the bedrock of international humanitarian law.
+            <div>
+                <div>
+                    <h3>Skiing &amp; Snowboarding</h3>
+                    <p>
+                        Switzerland boasts some of Europe's finest ski resorts. Popular destinations include Verbier, 
+                        Zermatt, and St. Moritz. The season runs from December through March, with reliable snow conditions 
+                        and world-class facilities. Resorts cater to all skill levels, from beginners to Olympic-standard slopes.
                     </p>
                 </div>
 
-                <!-- Banking and Finance -->
-                <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-yellow-600">
-                    <h3 class="text-xl font-semibold mb-2">Rise as a Financial Hub</h3>
-                    <p class="text-gray-600">
-                        Switzerland's long-standing political stability and neutrality, combined with its banking secrecy laws (some of which have been reformed), fostered its growth into a major global center for international finance and wealth management.
+                <div>
+                    <h3>Cross-Country Skiing</h3>
+                    <p>
+                        Scenic cross-country skiing trails wind through valleys and forests. Engadin Valley and 
+                        the Swiss plateau offer numerous groomed trails perfect for both leisurely outings and fitness pursuits.
                     </p>
                 </div>
-                
-                <!-- UN and Global Role -->
-                <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-blue-500">
-                    <h3 class="text-xl font-semibold mb-2">Late Entry into the UN (2002)</h3>
-                    <p class="text-gray-600">
-                        Despite being the host country for the European headquarters of the UN in Geneva, Switzerland only joined the United Nations as a full member in 2002, following a national referendum, underscoring its cautious approach to international alliances.
+
+                <div>
+                    <h3>Ice Skating &amp; Curling</h3>
+                    <p>
+                        Many Swiss towns have outdoor ice rinks in winter. St. Moritz and other resorts offer the unique experience 
+                        of playing curling and ice hockey on frozen lakes.
                     </p>
                 </div>
-                
-                <!-- Women's Suffrage -->
-                <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-purple-500">
-                    <h3 class="text-xl font-semibold mb-2">Women's Right to Vote</h3>
-                    <p class="text-gray-600">
-                        Switzerland was one of the last European countries to grant women the right to vote in federal elections, which was only achieved in 1971. Some cantons, like Appenzell Innerrhoden, resisted until 1990.
+
+                <div>
+                    <h3>Snowshoeing</h3>
+                    <p>
+                        A gentler alternative to skiing, snowshoeing trails traverse the Alpine landscape, offering peaceful 
+                        communion with nature and stunning mountain views.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- Popular Activities Section (New Content) -->
-        <section class="mb-10">
-            <h2 class="text-3xl font-bold mb-6 text-alpine-blue border-b-2 border-alpine-blue pb-2">Popular Activities in Switzerland</h2>
+        <section>
+            <h2>Summer &amp; Mountain Activities</h2>
+            <img src="../photos/summeractivity.jpg" alt="Mountain landscape" class="fimage">
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                
-                <!-- Card 1: Alpine Experiences -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02] border-t-4 border-green-500">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Alpine Wonders and Hiking</h3>
-                    <p class="mb-3 text-gray-600">
-                        The Swiss Alps offer unparalleled opportunities for adventure. Key activities include taking the cogwheel train to Jungfraujoch ("Top of Europe"), skiing in Zermatt (near the Matterhorn), and exploring thousands of kilometers of scenic hiking trails.
+            <div>
+                <div>
+                    <h3>Hiking &amp; Trekking</h3>
+                    <p>
+                        Switzerland's extensive network of well-marked hiking trails caters to all fitness levels. 
+                        Popular routes include the Tour of Mont Blanc, Jungfrau trails, and the scenic paths around 
+                        Interlaken. Summer (June–September) is peak hiking season.
                     </p>
                 </div>
 
-                <!-- Card 2: Scenic Rail Journeys -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02] border-t-4 border-red-500">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Panoramic Train Journeys</h3>
-                    <p class="mb-3 text-gray-600">
-                        Switzerland is famous for its panoramic rail lines. The Glacier Express links Zermatt and St. Moritz, offering a slow journey through high alpine scenery, while the Bernina Express crosses spectacular bridges and tunnels into Italy.
-                    </p>
-                </div>
-                
-                <!-- Card 3: Cities and Culture -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02] border-t-4 border-yellow-500">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Urban Exploration and Heritage</h3>
-                    <p class="mb-3 text-gray-600">
-                        Explore the medieval Zähringer architecture in Bern’s UNESCO-listed Old City, visit the iconic Chapel Bridge in Lucerne, or immerse yourself in the international finance and art scene of Zurich and Geneva.
+                <div>
+                    <h3>Mountain Biking</h3>
+                    <p>
+                        The Alps offer thrilling mountain biking trails with breathtaking descents. E-biking has become 
+                        increasingly popular, making alpine exploration accessible to more cyclists.
                     </p>
                 </div>
 
-                <!-- Card 4: Culinary Delights -->
-                <div class="bg-white p-6 rounded-xl card-shadow transition duration-300 hover:scale-[1.02] border-t-4 border-purple-500">
-                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Chocolate, Cheese, and Wine</h3>
-                    <p class="mb-3 text-gray-600">
-                        A trip is incomplete without enjoying Swiss culinary staples. Indulge in fondue and raclette, visit a traditional chocolatier, or explore the terraced vineyards of Lavaux (UNESCO World Heritage Site) for wine tasting.
+                <div>
+                    <h3>Rock Climbing &amp; Via Ferrata</h3>
+                    <p>
+                        Climbers flock to regions like Chamonix (nearby) and Swiss climbing areas for challenging rock routes. 
+                        Via Ferrata (iron way) paths combine hiking with climbing, offering a thrilling but safe alpine experience.
                     </p>
                 </div>
 
+                <div>
+                    <h3>Paragliding &amp; Hang Gliding</h3>
+                    <p>
+                        Interlaken is a world-renowned paragliding destination. The thermals and ridge lift in the Alps 
+                        create ideal conditions for exhilarating flights with panoramic views.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Canyoning</h3>
+                    <p>
+                        Adventure seekers can rappel down waterfalls and traverse mountain streams in narrow canyons. 
+                        Popular canyoning sites include locations in the Bernese Oberland and Uri.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <!-- Footer / Call to Action -->
+        <section>
+            <h2>Water Activities</h2>
+            <img src="../photos/wateractivity.jpg" alt="Lake activity" class="fimage">
+            
+            <div>
+                <div>
+                    <h3>Swimming &amp; Lake Activities</h3>
+                    <p>
+                        Switzerland's pristine lakes—Lake Geneva, Lake Neuchâtel, Lake Zurich—offer swimming, paddleboarding, 
+                        kayaking, and sailing. Summer water temperatures in shallow bays reach comfortable levels for swimming.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Windsurfing &amp; Kitesurfing</h3>
+                    <p>
+                        Lake Neuchâtel and Lake Geneva are popular spots for windsurfing, particularly for beginners 
+                        and intermediate enthusiasts seeking consistent wind conditions.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Rafting &amp; Kayaking</h3>
+                    <p>
+                        The Reuss, Aare, and Rhine rivers offer exciting rafting and kayaking opportunities. 
+                        Difficulty ranges from family-friendly float trips to challenging whitewater descents.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Fishing</h3>
+                    <p>
+                        Switzerland's lakes and rivers are renowned for trout and pike fishing. Fishing permits and guided 
+                        trips are readily available throughout the country.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Wellness &amp; Relaxation</h2>
+            <img src="../photos/wellness.png" alt="Relaxation resort" class="fimage">
+            
+            <div>
+                <div>
+                    <h3>Spa &amp; Thermal Resorts</h3>
+                    <p>
+                        Switzerland offers world-class spa facilities and thermal baths. Leukerbad, Bad Ragaz, and 
+                        other resorts feature geothermal pools and comprehensive wellness programs.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Yoga &amp; Meditation Retreats</h3>
+                    <p>
+                        Mountain villages and lakeside towns host yoga retreats and meditation centers, offering 
+                        peaceful environments for personal wellness journeys.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Alpine Wellness Lodges</h3>
+                    <p>
+                        Many mountain resorts combine hiking access with luxury spa facilities, allowing visitors to 
+                        balance active adventures with restorative relaxation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Cultural &amp; Urban Activities</h2>
+            <img src="../photos/citytour.jpg" alt="Urban culture" class="fimage">
+            
+            <div>
+                <div>
+                    <h3>City Tours &amp; Museums</h3>
+                    <p>
+                        Zurich, Bern, Lucerne, and Geneva offer rich cultural experiences with world-class museums, 
+                        galleries, and historic landmarks. City trams and walking tours provide accessible exploration.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Scenic Trains &amp; Railway Journeys</h3>
+                    <p>
+                        The Glacier Express, Bernina Express, and Jungfrau Railways combine transportation with stunning 
+                        alpine scenery. These scenic journeys are experiences in themselves.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Cheese &amp; Chocolate Tastings</h3>
+                    <p>
+                        Visit Swiss cheese dairies and chocolate factories to learn about production and taste artisanal 
+                        products. Gruyères and Appenzell are famous cheese-making regions.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Open-Air Markets &amp; Shopping</h3>
+                    <p>
+                        Swiss towns host vibrant farmers' markets and artisan fairs. High Street shopping in cities like 
+                        Zurich and Geneva showcases global and local brands.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Best Time &amp; Practical Tips</h2>
+            <p>
+                <strong>Peak Seasons:</strong> Summer (June–September) for hiking and lake activities; December–February for skiing.
+            </p>
+            <p>
+                <strong>Shoulder Seasons:</strong> Spring (April–May) and autumn (September–October) offer mild weather and fewer crowds.
+            </p>
+            <p>
+                <strong>Booking Tips:</strong> Reserve accommodations and activity guides in advance, especially during peak season. 
+                Consider a Swiss Travel Pass for unlimited train, bus, and lake transport.
+            </p>
+            <p>
+                <strong>Safety:</strong> Switzerland has excellent safety standards and rescue services. Always follow local guidelines 
+                and weather forecasts before outdoor adventures.
+            </p>
+        </section>
+
     </main>
 
     <footer>
-        <p>Last updated: November 2025.</p>
+        <p>
+            &copy; <a href="dcu.ie">DCU 2025-2026</a>
+            <span class="footer-separator">&middot;</span>
+            <span class="footer-text">Web Design Group</span>
+            <span class="footer-separator">&middot;</span>
+            <span class="footer-text">This is student coursework</span>
+            <span class="footer-separator">&middot;</span>
+            <span class="footer-text">Lecturer <a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span>
+        </p>
     </footer>
-
 </body>
 </html>
